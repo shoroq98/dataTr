@@ -1,8 +1,9 @@
 import Pkg
 Pkg.add("LaTeXStrings")
+import Pkg
+Pkg.add("PyPlot")
+
 using LaTeXStrings
-
-
 using PyPlot
 
 close("all"); pygui(true)
@@ -47,6 +48,3 @@ colorbar(label=L"log(Ω_{a} h^2)")
 
 xlabel(L"log(m_{a})(ev)")
 ylabel(L"log(f_{a})(ev)")
-
-
-
